@@ -154,7 +154,8 @@
          classpath="${nbantext.jar}"/> 
 
      <property name="locjhindexer.jhall" value="${main.dir}/${jh.jar}"/>
-     <property name="locales" value="ja,zh_CN,pt_BR"/>
+     <!--<property name="locales" value="ja,zh_CN,pt_BR"/>-->
+     <property name="locales" value="de"/>
      <property name="dist.dir" location="dist"/>
      <property name="nbms.dist.dir" location="nbms"/>
      <property name="nbms.dir" location="../nbbuild/nbms"/>
