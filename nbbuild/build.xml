@@ -2125,7 +2125,7 @@ It is possible to use -Ddebug.port=3234 -Ddebug.pause=y to start the system in d
         
         <exclusionsfromlicenseinfo nball=".." licenseinfoFileset="exclusionsfromlicenseinfo" exclusionFile="build/rat-exclusions-licenseinfo.txt"/>
         
-        <fileset dir="${nb_all}" id="rat.files">
+        <fileset dir="${nb_all}/netbeans-l10n/src/ja" id="rat.files">
             <excludesfile name="rat-exclusions.txt" />
             <excludesfile name="build/rat-exclusions-licenseinfo.txt" />
         </fileset>
